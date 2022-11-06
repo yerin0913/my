@@ -1,0 +1,68 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-color: rgb(251, 233, 255);
+}
+.loginhd, .logincaption {
+    float: left;
+    margin-top: 100px;
+    margin-bottom: 20%;
+    margin-left: 10%;
+}
+.loginhd {
+    /*float: left;*/
+    /*width: 60%;*/
+    text-align:left;
+    margin-top: 300px;
+    /*margin-left: 100px;*/
+}
+.logincaption {
+    /*float: right;*/
+    /*width: 35%;*/
+    /*margin-right: 100px;*/
+}
+.logincard {
+    box-shadow:0 4px 10px 0 rgb(159, 159, 159),0 4px 20px 0 rgb(159, 159, 159);
+    color:#fff;
+    background-color:#c39fce;
+    width:300px;
+    padding:0.01em 16px;
+    text-align:center;
+    margin-left: 7%;
+}
+.login, .login>h3, .login>a, .botton {
+    background-color: #c39fce;
+}
+.loginhd>h1 {
+    color: #9c5ab0;
+}
+a {
+    font-size: smaller;
+    color: #fff;
+}
+.botton>a {
+    text-decoration: none;
+}
+.botton1, .botton2 {
+    border:none;
+    display:inline;
+    padding:10px 20px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    margin: 10px 0px;
+}
+.botton1{
+    color:#fff;
+    background-color:#62ab64;
+}
+.botton2{
+    color:#fff;
+    background-color:#f78077;
+}
+.login img{
+    width:80%;
+    border-radius:8px
+}
